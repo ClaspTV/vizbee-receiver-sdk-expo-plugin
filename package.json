@@ -1,0 +1,41 @@
+{
+  "name": "vizbee-receiver-sdk-expo-plugin",
+  "version": "1.0.0-rc.1",
+  "description": "The Vizbee Receiver Expo plugin allows you to use react-native-vizbee-receiver-sdk without leaving the managed workflow.",
+  "main": "./app.plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && rm -rf build && tsc",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaspTV/vizbee-receiver-sdk-expo-plugin.git"
+  },
+  "keywords": [
+    "expo",
+    "vizbee",
+    "plugin"
+  ],
+  "author": "vizbee",
+  "contributors": [
+    "Sidharth Datta"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClaspTV/vizbee-receiver-sdk-expo-plugin/issues"
+  },
+  "homepage": "https://github.com/ClaspTV/vizbee-receiver-sdk-expo-plugin#readme",
+  "devDependencies": {
+    "@types/xml2js": "^0.4.14",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "expo-module-scripts": "^2.0.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^8.0.8"
+  }
+}
